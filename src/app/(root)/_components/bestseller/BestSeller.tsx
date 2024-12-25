@@ -5,7 +5,7 @@ import ContentBestSeller from './ContentBestSeller'
 
 const BestSeller = () => {
     return (
-        <div className='bg-white w-full p-3 rounded-lg'>
+        <div className='bg-white w-full p-3 rounded-lg mb-3'>
             {/* header  */}
             <div className='flex justify-between items-center pb-2 border-b mb-3'>
                 <h2 className=' uppercase text-xl font-bold '>Best Seller</h2>

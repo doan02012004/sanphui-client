@@ -23,7 +23,6 @@ const ContentBestSeller = () => {
           nextEl:'.swiper_next_bestseller',
           prevEl:'.swiper_prev_bestseller'
         }}
-        
         modules={[Navigation]}
       >
         <SwiperSlide>

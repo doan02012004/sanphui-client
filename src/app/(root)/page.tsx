@@ -1,13 +1,15 @@
 import React from 'react'
-import Banner from './_components/banner/Banner'
-import BestSeller from './_components/bestseller/BestSeller'
+import { Banner, BestSeller, CategoriesHome, Suggesstion } from './_components'
+
+
 
 const HomePage = () => {
   return (
     <div className='container'>
-       <Banner />
-       <BestSeller />
-       hjhj
+      <Banner />
+      <CategoriesHome />
+      <BestSeller />
+      <Suggesstion />
     </div>
   )
 }

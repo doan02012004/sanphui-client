@@ -86,15 +86,15 @@ const Banner = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className=' col-span-4 p-4 rounded-lg bg-green-500 relative'>
+      <div className=' col-span-4 p-4 rounded-lg bg-gray-800 relative'>
           <h1 className='uppercase text-xl text-white mb-3'>Đặt Sân Bóng Đá</h1>
           <p className=' m-0 text-sm text-green-100'>Hỗ trợ đặt sân bóng đá trực tuyến trên toàn quốc. Giúp bạn dễ dàng đặt các lịch đấu ở nơi bạn muốn !</p>
-          <Button className=' absolute right-4 bottom-4 bg-white text-green-700 border border-green-300 hover:bg-green-100'>Đặt sân ngay</Button>
+          <Button className=' absolute right-4 bottom-4 bg-white text-red-700 border border-gray-300 hover:bg-gray-100'>Xem Ngay</Button>
       </div>
-      <div className=' col-span-4 p-4 rounded-lg bg-green-500 relative'>
+      <div className=' col-span-4 p-4 rounded-lg bg-gray-800 relative'>
           <h1 className='uppercase text-xl text-white mb-3'>Đặt Sân Bóng Đá</h1>
           <p className=' m-0 text-sm text-green-100'>Hỗ trợ đặt sân bóng đá trực tuyến trên toàn quốc. Giúp bạn dễ dàng đặt các lịch đấu ở nơi bạn muốn !</p>
-          <Button className=' absolute right-4 bottom-4 bg-white text-green-700 border border-green-300 hover:bg-green-100'>Đặt sân ngay</Button>
+          <Button className=' absolute right-4 bottom-4 bg-white text-red-700 border border-gray-300 hover:bg-gray-100'>Xem Ngay</Button>
       </div>
     </div>
   )

@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import React from 'react'
 import Header from './_components/Header';
-
 type WebsiteLayoutProps = {
     children: React.ReactNode
 }
@@ -15,6 +14,7 @@ const WebsiteLayout = ({ children }: WebsiteLayoutProps) => {
         <div className='min-h-screen bg-gray-100'>
             <Header />
             {children}
+            
         </div>
     )
 }
